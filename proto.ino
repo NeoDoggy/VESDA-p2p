@@ -172,3 +172,58 @@ void loop(void) {
   server.handleClient();
   delay(1);
 }
+
+/*
+<style>
+    #file-input,
+    input {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+        margin: 10px auto;
+        font-size: 16px
+    }
+    input {
+        background: #fff;
+        border: 0;
+        padding: 0 15px
+    }
+    body {
+        background: #1a1a1a;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #FdFdFd
+    }
+    #file-input {
+        padding: 0;
+        border: 2px solid #ddd;
+        line-height: 45px;
+        text-align: left;
+        display: block;
+        cursor: pointer
+    }
+    #bar,
+    #prgbar {
+        background-color: #4d4d4d;
+        border-radius: 15px
+    }
+    #bar {
+        background-color: #4cdebc;
+        width: 0%;
+        height: 15px
+    }
+    form {
+        background: #1f1f1f;
+        max-width: 300px;
+        margin: 80px auto;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center
+    }
+    .btn {
+        background: #4a4a4a;
+        color: #FFFFFF;
+        cursor: pointer
+    }
+</style>
+*/
