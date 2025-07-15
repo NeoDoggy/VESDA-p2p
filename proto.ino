@@ -13,8 +13,8 @@ const uint8_t SHARP_VO_PIN = 7;    // Sharp Dust/particle analog out pin used fo
 GP2YDustSensor dustSensor(GP2YDustSensorType::GP2Y1014AU0F, SHARP_LED_PIN, SHARP_VO_PIN);
  
 char* host = "esp32";
-char* ssid = "AA";
-char* password = "imdiethankyouforever";
+char* ssid = "*";
+char* password = "*";
 WebServer server(80);
  
 String css =
